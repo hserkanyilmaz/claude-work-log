@@ -12,29 +12,19 @@ A Claude Code plugin that logs all prompts and responses to a searchable SQLite 
 
 ## Installation
 
-Install as a Claude Code plugin:
+Inside Claude Code, run the following slash commands:
 
-```bash
-claude install-plugin github:hserkanyilmaz/claude-work-log
+**1. Add the marketplace:**
+```
+/plugins:marketplace:add claude-work-log github:hserkanyilmaz/claude-work-log
 ```
 
-Or add to your `~/.claude/settings.json`:
-
-```json
-{
-  "enabledPlugins": {
-    "claude-work-log@claude-work-log": true
-  },
-  "extraKnownMarketplaces": {
-    "claude-work-log": {
-      "source": {
-        "source": "github",
-        "repo": "hserkanyilmaz/claude-work-log"
-      }
-    }
-  }
-}
+**2. Install the plugin:**
 ```
+/plugins:install claude-work-log@claude-work-log
+```
+
+**3. Restart Claude Code** to activate the hooks.
 
 ## Usage
 
