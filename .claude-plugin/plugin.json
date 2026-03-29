@@ -1,0 +1,20 @@
+{
+  "name": "claude-work-log",
+  "version": "1.0.0",
+  "description": "Logs all Claude Code prompts and responses to a searchable SQLite database, tagged by repository and GitHub issue. Provides slash commands to search work history.",
+  "author": {
+    "name": "Hakan Serkan Yilmaz",
+    "url": "https://github.com/hserkanyilmaz"
+  },
+  "repository": "https://github.com/hserkanyilmaz/claude-work-log",
+  "license": "MIT",
+  "keywords": [
+    "work-log",
+    "history",
+    "audit",
+    "prompts",
+    "tracking",
+    "github"
+  ],
+  "hooks": "./hooks/hooks.json"
+}
