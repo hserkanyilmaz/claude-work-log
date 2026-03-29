@@ -21,7 +21,7 @@ Inside Claude Code, run the following slash commands:
 
 **2. Install the plugin:**
 ```
-/plugins:install claude-work-log@claude-work-log
+/plugins install claude-work-log@claude-work-log
 ```
 
 **3. Restart Claude Code** to activate the hooks.
