@@ -16,7 +16,7 @@ Inside Claude Code, run the following slash commands:
 
 **1. Add the marketplace:**
 ```
-/plugins:marketplace:add claude-work-log github:hserkanyilmaz/claude-work-log
+/plugin marketplace add hserkanyilmaz/claude-work-log
 ```
 
 **2. Install the plugin:**
