@@ -1,21 +1,21 @@
 {
   "name": "claude-work-log",
   "owner": {
-    "name": "Hakan Serkan Yilmaz",
+    "name": "Hasan Serkan Yilmaz",
     "email": "hserkanyilmaz@github.com"
   },
   "metadata": {
     "description": "Claude Code plugin that logs all prompts and responses to a searchable SQLite database, tagged by repo and GitHub issue",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "claude-work-log",
       "source": "./",
       "description": "Logs all Claude Code prompts and responses to a searchable SQLite database, tagged by repository and GitHub issue. Provides slash commands to search work history.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
-        "name": "Hakan Serkan Yilmaz"
+        "name": "Hasan Serkan Yilmaz"
       },
       "category": "productivity",
       "keywords": [
