@@ -1,6 +1,6 @@
 {
   "name": "claude-work-log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Logs all Claude Code prompts and responses to a searchable SQLite database, tagged by repository and GitHub issue. Provides slash commands to search work history.",
   "author": {
     "name": "Hasan Serkan Yilmaz",
@@ -15,6 +15,5 @@
     "prompts",
     "tracking",
     "github"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }

@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Claude Code plugin that logs all prompts and responses to a searchable SQLite database, tagged by repo and GitHub issue",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "plugins": [
     {
       "name": "claude-work-log",
       "source": "./",
       "description": "Logs all Claude Code prompts and responses to a searchable SQLite database, tagged by repository and GitHub issue. Provides slash commands to search work history.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Hasan Serkan Yilmaz"
       },
